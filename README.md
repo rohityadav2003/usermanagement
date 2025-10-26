@@ -1,16 +1,32 @@
-# React + Vite
+# 👨‍💼 User Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **User Management Dashboard** built with **React.js**, **Vite**, and **Tailwind CSS**.  
+It demonstrates component-based architecture, API integration, routing, and responsive UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 📋 View all users in a neat, responsive card/table layout  
+- 🔍 Search users by name or email  
+- 👁️ View detailed info of a selected user  
+- ➕ Add new users locally (no backend required)  
+- 💾 Data fetched from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)  
+- 📱 Fully responsive (works on desktop & mobile)  
+- 🌗 (Bonus) Optional dark/light mode toggle *(if implemented)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React 18+** with Hooks  
+- 🌐 **React Router v6** for navigation  
+- 🎨 **Tailwind CSS** for styling  
+- 🔄 **Axios / Fetch API** for API calls  
+- 🧠 **Context API** for user state management  
+- 🧹 **ESLint + Prettier** for code quality *(optional)*  
+
+---
+
+## 🏗️ Project Structure
+
